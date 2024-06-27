@@ -1,0 +1,8 @@
+# Arquivo raiz
+root = true
+
+[*] # Aplicar configurações para todos os tipos de arquivos
+# Estilo de indentação
+indent_style = space
+# Números de espaços utilizados na indentação
+indent_size = 2
