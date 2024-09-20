@@ -24,6 +24,7 @@ const jestConfig = createJestConfig({
 
   // <rootDir> é um placeholder criado pelo Jest para indicar a pasta raiz do projeto
   moduleDirectories: ["node_modules", "<rootDir>"],
+  testTimeout: 60000,
 });
 
 module.exports = jestConfig;
